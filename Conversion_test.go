@@ -125,19 +125,6 @@ func TestEPUB(t *testing.T) {
 	fmt.Print(text)
 }
 
-func TestMOBI(t *testing.T) {
-	// open local file to extract text and output to command line
-	file, err := os.Open("windows-1252.mobi")
-	if err != nil {
-		return
-	}
-
-	defer file.Close()
-
-	text, _ := Mobi2Text(file)
-	fmt.Print(text)
-}
-
 func TestPDFImage(t *testing.T) {
 	// open local file to extract images
 	file, err := os.Open("test.pdf")

@@ -12,7 +12,7 @@ It supports following file formats for plaintext conversion:
 * Excel: XLS, XLSX, ODS
 * PowerPoint: PPTX
 * PDF
-* Ebook: EPUB, MOBI
+* Ebook: EPUB
 * Website: HTML
 
 Functions for compressed and container files:
@@ -78,7 +78,6 @@ DOCX2Text(file io.ReaderAt, size int64) (string, error)
 EPUB2Text(file io.ReaderAt, size int64, limit int64) (string, error)
 HTML2Text(reader io.Reader) (pageText string, err error)
 HTML2TextAndLinks(reader io.Reader, baseURL string) (pageText string, links []string, err error)
-Mobi2Text(file io.ReadSeeker) (string, error)
 ODS2Text(file io.ReaderAt, size int64, writer io.Writer, limit int64) (written int64, err error)
 ODT2Text(file io.ReaderAt, size int64, writer io.Writer, limit int64) (written int64, err error)
 PDFListContentStreams(f io.ReadSeeker, w io.Writer, size int64) (written int64, err error)
@@ -118,8 +117,6 @@ go get -u github.com/taylorskalyo/goreader/epub
 go get -u github.com/PuerkitoBio/goquery
 go get -u github.com/ssor/bom
 go get -u github.com/levigross/exp-html
-go get -u github.com/neofight/mobi/convert
-go get -u github.com/neofight/mobi/headers
 go get -u github.com/nfnt/resize
 go get -u github.com/tealeg/xlsx
 go get -u gopkg.in/xmlpath.v2
@@ -139,7 +136,6 @@ Other packages were tested and either found insufficient, or unstable. Many of t
 * `xls` is forked from https://github.com/sergeilem/xls which is a fork from https://github.com/extrame/xls
 * `doc` is forked from https://github.com/EndFirstCorp/doc2txt
 * `docx` is forked from https://github.com/guylaor/goword
-* `mobi` is forked from https://github.com/neofight/mobi
 * `odt` is forked from https://github.com/lu4p/cat
 * `pptx` is forked from https://github.com/mr-tim/rol-o-decks
 * `rtf` is forked from https://github.com/J45k4/rtf-go

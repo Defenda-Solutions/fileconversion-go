@@ -6,9 +6,7 @@ require (
 	github.com/IntelligenceX/fileconversion v0.0.0-20191030112448-1b64e2d06ace
 	github.com/PuerkitoBio/goquery v1.8.1
 	github.com/extrame/goyymmdd v0.0.0-20210114090516-7cc815f00d1a
-	github.com/levigross/exp-html v0.0.0-20120902181939-8df60c69a8f5
 	github.com/mattetti/filebuffer v1.0.1
-	github.com/neofight/mobi v0.0.0-20171007153753-8122c3d7969d
 	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646
 	github.com/nwaples/rardecode v1.1.3
 	github.com/olekukonko/tablewriter v0.0.5
