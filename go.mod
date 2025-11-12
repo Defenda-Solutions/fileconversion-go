@@ -1,4 +1,4 @@
-module github.com/DefendaSolutions/fileconversion-go
+module github.com/Defenda-Solutions/fileconversion-go
 
 go 1.21.5
 
