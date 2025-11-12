@@ -30,7 +30,7 @@ Picture related functions:
 To download this library:
 
 ```
-go get -u github.com/DefendaSolutions/fileconversion-go
+go get -u github.com/Defenda-Solutions/fileconversion-go
 ```
 
 And then use it like:
@@ -43,7 +43,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/DefendaSolutions/fileconversion-go"
+	"github.com/Defenda-Solutions/fileconversion-go"
 )
 
 const sizeLimit = 2 * 1024 * 1024 // 2 MB
